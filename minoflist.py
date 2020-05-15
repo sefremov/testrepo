@@ -1,4 +1,4 @@
-def min_value(data):
+def min_value_in_list(data):
     m = data[0]
     i = 1
     while i < len(data):
@@ -9,4 +9,5 @@ def min_value(data):
 
 
 numbers = [10, 4, 5, 6]
-print(min_value(numbers))
+min_value = min_value_in_list(numbers)
+print(min_value)
