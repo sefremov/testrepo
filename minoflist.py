@@ -6,3 +6,7 @@ def min_value(data):
             m = data[i]
         i += 1
     return m
+
+
+numbers = [10, 4, 5, 6]
+print(min_value(numbers))
